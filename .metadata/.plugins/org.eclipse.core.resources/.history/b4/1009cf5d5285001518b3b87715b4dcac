@@ -1,0 +1,21 @@
+package com.leon.charpt1To10.charpt9;
+
+public class ThreadDemo extends Thread
+{
+	private String name;
+
+	public ThreadDemo()
+	{
+	}
+
+	public ThreadDemo(String name)
+	{
+		this.name = name;
+	}
+	
+	@Override
+	public void run()
+	{
+		
+	}
+}

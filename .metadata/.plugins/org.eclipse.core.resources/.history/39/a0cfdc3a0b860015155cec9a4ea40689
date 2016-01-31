@@ -1,0 +1,15 @@
+package com.leon.charpt11To20;
+
+import java.applet.Applet;
+import java.awt.Graphics;
+
+public class C11Watch extends Applet
+{
+	public static void main(String[] args)
+	{
+		public void paint(Graphics g)
+		{
+			
+		}
+	}
+}

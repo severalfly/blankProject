@@ -1,0 +1,11 @@
+package com.leon.charpt1To10;
+
+import java.util.LinkedList;
+
+public class C7
+{
+	public static void main(String[] args)
+	{
+		List<int> list = new LinkedList<>();
+	}
+}

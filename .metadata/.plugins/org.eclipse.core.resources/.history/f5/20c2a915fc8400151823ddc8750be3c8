@@ -1,0 +1,15 @@
+package com.leon.charpt1To10;
+
+import javax.swing.JApplet;
+
+public class C8MoveMessage extends JApplet implements Runnable
+{
+
+	@Override
+	public void run()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

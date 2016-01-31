@@ -1,0 +1,8 @@
+package com.leon.charpt1To10.charpt9;
+
+public class Test
+{
+	ThreadDemo t1 = new ThreadDemo("qwer");
+	ThreadDemo t2 = new ThreadDemo("asdf");
+	ThreadDemo t3 = new ThreadDemo("zxcv");
+}

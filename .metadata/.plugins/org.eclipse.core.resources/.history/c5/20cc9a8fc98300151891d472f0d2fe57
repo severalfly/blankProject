@@ -1,0 +1,5 @@
+package com.leon.charpt1To10.charpt4;
+
+public class Circle {
+	private float radius;
+}

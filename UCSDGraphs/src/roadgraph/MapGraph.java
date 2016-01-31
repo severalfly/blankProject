@@ -33,7 +33,7 @@ public class MapGraph
 {
 	//TODO: Add your member variables here in WEEK 2
 	/**
-	 * 保存的是顶点与顶点的出口进口点列表。先出后入，就是说正常节点会有两个list ，第一个为出口列表，第二个为入口列表
+	 * to store the nodes and its neighbors 
 	 */
 	private HashMap<GeographicPoint, List<GeographicPoint>> pointMap;
 
@@ -79,7 +79,6 @@ public class MapGraph
 		{
 			result += map.getValue().size();
 		}
-		// 考虑到每条路有两个节点，会重复计算一次
 		return result;
 	}
 
@@ -99,10 +98,13 @@ public class MapGraph
 			return false;
 		}
 		List<GeographicPoint> value = this.pointMap.get(location);
+		// if we have created the value node, then return false
 		if (value != null)
 		{
 			return false;
 		}
+
+		// go to here for have no value node
 		List<GeographicPoint> list = new LinkedList<>();
 		this.pointMap.put(location, list);
 		return true;
@@ -136,8 +138,7 @@ public class MapGraph
 		{
 			throw new IllegalArgumentException();
 		}
-		// new 出来一条路
-		//		1. 向出口顶点添加 to点
+		// to save "to" as the neighbor of from
 		if (!neighbors.contains(to))
 		{
 			neighbors.add(to);

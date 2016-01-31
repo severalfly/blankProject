@@ -1,0 +1,6 @@
+package com.leon.charpt1To10.charpt4;
+
+public class Cylinder extends Circle
+{
+	private double hight;
+}

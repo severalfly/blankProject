@@ -1,0 +1,21 @@
+package com.leon.charpt1To10;
+
+public class C3 {
+	public static void main(String[] args) {
+		int inputNumber = 10;
+		long result = 0;
+		for (int i = 1; i < inputNumber	; i++) {
+			result += jieCheng(i);
+		}
+		System.out.println(result);
+	}
+	
+	public static long jieCheng(int inputNumber)
+	{
+		long result = 1;
+		for (int i = 1; i < inputNumber; i++) {
+			result *= i;
+		}
+		return result;
+	}
+}

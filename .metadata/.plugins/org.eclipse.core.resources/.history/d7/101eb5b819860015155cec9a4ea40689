@@ -1,0 +1,28 @@
+package com.leon.program1T10;
+
+public class P6
+{
+
+}
+
+class deff
+{
+	public int deff(int x, int y)
+	{
+		int t;
+		if(x < y)
+		{
+			t =x;
+			x = y;
+			y = t;
+		}
+		
+		while(y != 0)
+		{
+			t = x%y;
+			x  = y;
+			y = t;
+		}
+		return 0;
+	}
+}

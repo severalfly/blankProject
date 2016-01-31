@@ -1,0 +1,15 @@
+package com.leon.program1T10;
+
+public class P1
+{
+	public static void main(String[] args)
+	{
+		long f1 = 1;
+		long f2 = 1;
+		long f = 0;
+		for (int i = 3;  i < 24; ++i)
+		{
+			
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package com.leon.program1T10;
+
+public class P1
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}

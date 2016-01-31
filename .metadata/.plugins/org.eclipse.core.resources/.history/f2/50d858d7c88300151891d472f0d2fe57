@@ -1,0 +1,13 @@
+package com.leon.charpt1To10;
+
+public class C3 {
+	public static void main(String[] args) {
+		
+	}
+	
+	private long jieCheng(int inputNumber)
+	{
+		
+		return 0;
+	}
+}

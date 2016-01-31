@@ -1,0 +1,16 @@
+package com.leon.charpt1To10;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class C7
+{
+	public static void main(String[] args)
+	{
+		List<Integer> list = new LinkedList<>();
+		for(int i = 100; i< 106; ++i)
+		{
+			list.add(i);
+		}
+	}
+}

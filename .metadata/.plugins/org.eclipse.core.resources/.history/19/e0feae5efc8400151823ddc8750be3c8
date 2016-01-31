@@ -1,0 +1,24 @@
+package com.leon.charpt1To10;
+
+import java.awt.Color;
+
+import javax.swing.JApplet;
+
+public class C8MoveMessage extends JApplet implements Runnable
+{
+	private Thread thread;
+
+	public void init()
+	{
+		setBackground(Color.PINK);
+		str = getParameter("message");
+	}
+
+	@Override
+	public void run()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

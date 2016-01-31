@@ -1,0 +1,11 @@
+package com.leon.charpt11To20;
+
+public class C12Student
+{
+	private String no;
+	private String name;
+	private String agend;
+	private String age;
+	private String java;
+	
+}

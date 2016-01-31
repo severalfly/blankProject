@@ -1,0 +1,14 @@
+package com.leon.charpt11To20;
+
+import java.applet.Applet;
+import java.awt.Graphics;
+import java.util.Date;
+
+public class C11Watch extends Applet
+{
+	public void paint(Graphics g)
+	{
+		Date date = new Date();
+		System.out.println(date.toLocaleString());
+	}
+}

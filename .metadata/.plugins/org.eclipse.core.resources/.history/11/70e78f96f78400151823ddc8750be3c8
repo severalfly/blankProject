@@ -1,0 +1,21 @@
+package com.leon.charpt1To10;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class C6
+{
+	public static void main(String[] args)
+	{
+		try
+		{
+			FileInputStream in = new FileInputStream(new File("D:\\workspace\\javaFundation\\src\\com\\leon\\charpt1To10\\C1.java"));
+		}
+		catch (FileNotFoundException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

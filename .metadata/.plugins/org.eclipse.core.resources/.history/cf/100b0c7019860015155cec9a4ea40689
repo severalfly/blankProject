@@ -1,0 +1,14 @@
+package com.leon.program1T10;
+
+public class P6
+{
+
+}
+
+class deff
+{
+	public int deff(int x , int y)
+	{
+		
+	}
+}

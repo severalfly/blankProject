@@ -1,0 +1,12 @@
+package com.leon.charpt1To10;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class C5
+{
+	public static void main(String[] args)
+	{
+		BufferedReader strin = new BufferedReader(new InputStreamReader(System.in));
+	}
+}
