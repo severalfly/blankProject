@@ -29,7 +29,7 @@ class Decompose
 		{
 			temp.add((long) Math.pow(i, 2));
 		}
-
+		System.out.println(temp.get((int) n));
 		return "";
 	}
 }
